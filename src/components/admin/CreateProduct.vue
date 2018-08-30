@@ -79,7 +79,7 @@ export default {
     async save (formData) {
       try {
         const response = await PictureService.upload(formData)
-        this.avatar = 'http://localhost:8081/photos/' + response.data
+        this.avatar = 'https://shop-server-testing.herokuapp.com/photos/' + response.data
       } catch (err) {
         console.log(err)
       }
