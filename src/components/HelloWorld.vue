@@ -96,8 +96,6 @@ li {
 a {
   color: #42b983;
 }
-.test {
-}
 .test p {
   margin: 1px;
 }
